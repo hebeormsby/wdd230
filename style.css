@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+@font-face {
+    font-family: 'Domine', serif;
+}
+
+header {
+    color: #440066;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2em;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 1em;
+    align-items: center;
+    background-color: #EDC9FF;
+    border-radius: 1em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+img {
+    border-radius: 1em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+main {
+    color:#440066;
+    font-family: 'Domine', serif;
+    font-size: 18px;
+}
+
+footer {
+    color: #440066;
+    font-family: 'Domine', serif;
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    text-align: center;
+    background-color: #EDC9FF;
+    border-radius: 1em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.name {
+    grid-column-start: 2;
+}
+
+.profile {
+    margin: 1em;
+    margin-left: 1.5em;
+}
+
+hr {
+    border: 2px solid #440066;
+    border-radius: 2px;
+}
+
+a:link {
+    color: #BA2C73;
+}
+
+a:visited {
+    color: #4062BB;
+}
+
+a:hover {
+    color: #EF8354;
+}
