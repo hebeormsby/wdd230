@@ -7,6 +7,31 @@
         justify-content: center;
     }
 
+    h1 {
+        font-size: 38px;
+    }
+    
+    h2 {
+        font-size: 28px;
+    }
+    
+    #name {
+        margin-top: -1em;
+    }
+    
+    h3 {
+        font-size: 26px;
+    }
+    
+    p {
+        font-size: 14pt;
+    }
+
+    img {
+        width: 370px;
+        height: auto;
+    }
+
     .hicks-law {
         grid-column-start: 1;
         grid-column-end: 2;
