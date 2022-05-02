@@ -2,37 +2,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Domine&family=Josefin+Sans&display=swap');
 
 header {
-    color: #440066;
+    color: #F95738;
+    background-color: #F6DB79;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 2em;
+    font-size: 1.5em;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-column-gap: 1em;
     align-items: center;
-    background-color: #EDC9FF;
-    border-radius: 1em;
+    border-radius: .75em;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+body {
+    background-color: black;
+}
+
 img {
-    border-radius: 1em;
+    border-radius: .75em;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 main {
-    color:#440066;
+    color:#F95738;
     font-family: 'Domine', serif;
     font-size: 18px;
 }
 
+.content {
+    margin-left: 1em;
+}
+
 footer {
-    color: #440066;
+    color: #F95738;
+    background-color: #F6DB79;
     font-family: 'Domine', serif;
     display: grid;
     grid-template-columns: auto;
     align-items: center;
     text-align: center;
-    background-color: #EDC9FF;
     border-radius: 1em;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -47,7 +55,7 @@ footer {
 }
 
 hr {
-    border: 2px solid #440066;
+    border: 2px solid #F6DB79;
     border-radius: 2px;
 }
 

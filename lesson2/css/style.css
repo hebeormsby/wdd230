@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+header {
+    background-color: #631E17;
+    color: white;
+    font-family: 'Open-Sans', sans-serif;
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid-container > div {
+    max-width: auto;
+    margin-right: 1em;
+    margin-left:1em;
+}
+
+section {
+    background: #F7E2DE;
+    border: 1px solid #84291F;
+}
+
+h1 {
+    font-size: 38px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+#name {
+    margin-top: -1em;
+}
+
+h3 {
+    font-family: 'Open-sans', sans-serif;
+    background-color: #84291F;
+    color: white;
+    font-size: 26px;
+    padding: .35em;
+    padding-bottom: .75em;
+    margin-bottom: -.4em;
+    border-radius: .5em .5em 0 0;
+}
+
+p {
+    font-family: 'Open-sans', sans-serif;
+    font-size: 14pt;
+    line-height: 1.6;
+    margin-left: .5em;
+    margin-right: .5em;
+}
+
+img {
+    max-width: 100%;
+    height:auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #84291F;
+}
+
+a:link {
+    color: #4062BB;
+}
+
+a:visited {
+    color: #bfd45f;
+}
+
+a:hover {
+    color: #84291F;
+}
+
+footer {
+    font-family: 'Open-sans', sans-serif;
+    color: white;
+    background-color: #631E17;
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    text-align: center;
+    margin-top: 1.5em;
+}

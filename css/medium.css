@@ -1,0 +1,29 @@
+@media (min-width: 32.5em) {
+    header {
+        color: #440066;
+        background-color: #EDC9FF;
+        border-radius: 1em;
+    }
+
+    img {
+        width: 200px;
+        border-radius: 1em;
+    }
+
+    body {
+        background-color: white;
+    }
+
+    main {
+        color:#440066;
+    }
+
+    hr {
+        border: 2px solid #440066;
+    }
+
+    footer {
+        color: #440066;
+        background-color: #EDC9FF;
+    }
+}
