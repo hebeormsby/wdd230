@@ -7,15 +7,21 @@ body {
 }
 
 header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #bed;
     color: #333;
-    text-align: center;
     padding: 20px;
 }
 
 header img {
-    max-width: 100px;
+    max-width: 80px;
     border-radius: 8px;
+}
+
+h1 {
+    padding: 1em;
 }
 
 nav {
@@ -30,13 +36,9 @@ nav ul {
     overflow: hidden;
 }
 
-nav li {
-    display: inline-block;
-}
-
 nav a {
     display: block;
-    padding: 14px 16px;
+    padding: 14px 0px;
     text-decoration: none;
     color: #fff;
 }
@@ -47,18 +49,20 @@ nav a:hover {
 
 main {
     max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
+    margin: 16px auto;
+    padding: 16px;
 }
 
 h2 {
     text-align: center;
+    border-bottom: 1px solid #333;
+    padding: 16px;
 }
 
 h3 {
     background-color: #bed;
-    padding: 10px 10px;
-    border-radius: 8px;
+    margin: 0px;
+    padding: 14px;
     text-align: center;
 }
 
@@ -66,9 +70,7 @@ h3 {
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 5px;
-    padding: 15px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 20px 0px;
 }
 
 ul {
@@ -86,6 +88,7 @@ li {
 
 #info {
     text-align: center;
+    padding: 0px;
 }
 
 footer {
@@ -93,6 +96,18 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px;
+}
+
+#flag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer img {
+    max-width: 60px;
+    justify-content: center;
+    margin-left: 16px;
 }
 
 #mod {
