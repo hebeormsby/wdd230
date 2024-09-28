@@ -1,0 +1,11 @@
+@media (min-width: 500px) {
+    main {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 16px;
+    }
+
+    #anthro {
+        grid-column: 1 / 3;
+    }
+}

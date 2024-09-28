@@ -1,0 +1,21 @@
+@media (min-width: 800px) {
+
+    main {
+        max-width: 1248px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 16px;
+    }
+
+    #wiki {
+        grid-column: 1;
+    }
+
+    #apple {
+        grid-column: 2;
+    }
+
+    #anthro {
+        grid-column: 3;
+    }
+}
