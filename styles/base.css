@@ -61,7 +61,11 @@ nav a:active {
     color: var(--accent-color);
 }
 
-nav.open {
+open nav {
+    display: block;
+}
+
+.open nav a {
     display: block;
 }
 
@@ -74,6 +78,10 @@ nav.open {
     border: none;
     padding: 18px;
     width: 100%;
+}
+
+#menu:focus {
+    outline: 3px solid var(--accent-color2);
 }
 
 #menu:hover {
