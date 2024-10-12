@@ -32,7 +32,7 @@ h1 {
     padding: 1em;
 }
 
-.navigation {
+nav {
     background-color: var(--color);
     text-align: center;
     display: none;
@@ -61,7 +61,7 @@ nav a:active {
     color: var(--accent-color);
 }
 
-.navigation.open {
+nav.open {
     display: block;
 }
 
