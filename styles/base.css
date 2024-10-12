@@ -1,16 +1,23 @@
+:root {
+    --color: #333;
+    --background-color: #f8f8f8;
+    --background-color2: #555;
+    --accent-color: #785dc8;
+    --accent-color2: #bed;
+}
+
 body {
+    background-color: var(--background-color);
     font-family: roboto, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f8f8;
-    color: #333;
 }
 
 header {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #bed;
+    background-color: var(--accent-color);
     color: #333;
     padding: 20px;
 }
@@ -21,12 +28,14 @@ header img {
 }
 
 h1 {
+    color: var(--background-color);
     padding: 1em;
 }
 
-nav {
-    background-color: #333;
+.navigation {
+    background-color: var(--color);
     text-align: center;
+    display: none;
 }
 
 nav ul {
@@ -38,16 +47,49 @@ nav ul {
 
 nav a {
     display: block;
-    padding: 14px 0px;
+    padding: 18px 0px;
     text-decoration: none;
     color: #fff;
 }
 
 nav a:hover {
-    background-color: #555;
+    color: var(--accent-color2);
+    background-color: var(--background-color2);
+}
+
+nav a:active {
+    color: var(--accent-color);
+}
+
+.navigation.open {
+    display: block;
+}
+
+.active::before, .active::after {
+	content: " 👀 ";
+}
+
+#menu {
+    background-color: var(--color);
+    border: none;
+    padding: 18px;
+    width: 100%;
+}
+
+#menu:hover {
+    background-color: var(--background-color2);
+}
+
+#menu::before {
+    content: "🟰";
+}
+
+#menu.open::before {
+    content: "✖️";
 }
 
 main {
+    background-color: var(--background-color);
     max-width: 800px;
     margin: 16px auto;
     padding: 0 16px;
@@ -55,15 +97,17 @@ main {
 
 h2 {
     text-align: center;
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid var(--color);
     padding: 16px;
 }
 
 h3 {
-    background-color: #bed;
+    color: var(--background-color);
+    background-color: var(--accent-color);
     margin: 0px;
     padding: 14px;
     text-align: center;
+    border-radius: 5px 5px 0px 0px;
 }
 
 .card {
@@ -87,7 +131,7 @@ ul {
 
 #activities a {
     list-style-type: none;
-    color:#333;
+    color: var(--color);
 }
 
 #info {
@@ -95,9 +139,18 @@ ul {
     padding: 0px;
 }
 
+iframe {
+    display: block;
+    max-width: 800px;
+    width: 100%;
+    border: 0;
+    padding: 0 0 20px 0;
+    margin: 0 auto;
+}
+
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: var(--color);
+    color: var(--background-color);
     text-align: center;
     padding: 10px;
 }

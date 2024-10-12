@@ -9,6 +9,10 @@ nav a {
     padding: 18px 5vw;
 }
 
+#menu {
+    display: none;
+}
+
 main {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -53,5 +57,9 @@ footer div p {
 #mod {
     grid-column: 1 / 4;
     margin: 0 0 16px;
+}
+
+iframe {
+    padding: 0 0 32px 0;
 }
 }
