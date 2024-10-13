@@ -1,0 +1,15 @@
+:root {
+    --color: #333;
+    --background-color: #E8E9EB;
+    --background-color2: #555;
+    --accent-color: #785dc8;
+    --accent-color2: #F09D51;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--color);
+    font-family: 'Afacad Flux', sans-serif;
+    margin: 0;
+    padding: 0;
+}
