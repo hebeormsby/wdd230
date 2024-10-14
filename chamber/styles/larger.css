@@ -1,0 +1,15 @@
+@media (min-width: 800px) {
+
+    nav {
+        display: flex;
+        justify-content: center;
+    }
+    
+    nav a {
+        padding: 18px 5vw;
+    }
+    
+    #menu {
+        display: none;
+    }
+}
