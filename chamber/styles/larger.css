@@ -23,10 +23,6 @@
         display: contents;
     }
 
-    .email {
-        position: none;
-    }
-
     .cell {
         position: absolute;
         right: 36px;
