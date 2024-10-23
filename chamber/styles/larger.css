@@ -4,12 +4,31 @@
         display: flex;
         justify-content: center;
     }
-    
+
     nav a {
         padding: 18px 5vw;
     }
-    
+
     #menu {
         display: none;
+    }
+
+    #sponsor1 {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        column-gap: 16px;
+    }
+
+    .contact {
+        display: contents;
+    }
+
+    .email {
+        position: none;
+    }
+
+    .cell {
+        position: absolute;
+        right: 36px;
     }
 }

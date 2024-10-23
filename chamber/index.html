@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Hebe Ormsby">
-    <meta name="description" content="This is the Halloweentown Chamber website used to provide information on the history, economy, and local events happening around Halloweentown.">
+    <meta name="description"
+        content="This is the Halloweentown Chamber website used to provide information on the history, economy, and local events happening around Halloweentown.">
     <meta property="og:title" content="The Halloweentown Chamber of Commerce Website">
     <meta property="og:type" content="website">
     <meta property="og:image" content="chamber/images/hero.webp">
@@ -19,13 +21,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header>
-        <img src="../chamber/images/pump.png" alt="Image of Town Square">
+        <img src="../chamber/images/pump.png" alt="Image of jack-o-lantern.">
         <div>
             <h1>HALLOWEENTOWN</h1>
             <p id="commerce">Chamber of Commerce</p>
         </div>
+        <div id="mode">🌑</div>
     </header>
     <button id="menu" aria-label="Toggle navigation"></button>
     <nav>
@@ -44,31 +48,46 @@
             </div>
         </div>
         <div class="container">
-        <section class="card">
-            <h3>Current events</h3>
-            <ul class="events">
-                <li><a href="#">Pumpkin lighting ceremony</a></li>
-                <li><a href="#">Gort's treasure hunt</a></li>
-                <li><a href="#">Benny's taxi tours</a></li>
-            </ul>
-        </section>
-        <section class="card">
-            <h3>Information</h3>
-            <ul class="weather">
-                <li>Towns Square, Halloweentown</li>
-                <li>[Weather forecast]</li>
-                <li>Visitors:</li>
-            </ul>
-        </section>
-        <section class="card">
-            <h3>Sponsors</h3>
-            <ul class="sponsors">
-                <li><a href="#">The Dominion</a></li>
-                <li><a href="#">Sinister Industries</a></li>
-                <li><a href="#">Witch University</a></li>
-                <li><a href="#">The Cromwell Trust</a></li>
-            </ul>
-        </section>
+            <section class="card" id="event">
+                <h3>Current events</h3>
+                <p>🔎 Gort's treasure hunt 🔎</p>
+                <p>Score some spooky artifacts this coming Sunday at 12PM.</p>
+                <p><a href="#" id="info">More info...</a></p>
+            </section>
+            <section class="card" id="weather">
+                <h3>Information</h3>
+                <ul id="weather1">
+                    <li>Towns Square, Halloweentown</li>
+                    <li>[Weather forecast]</li>
+                    <li>Visitors:</li>
+                </ul>
+            </section>
+            <section class="card" id="sponsor">
+                <h3>Sponsors</h3>
+                <ul id="sponsor1">
+                    <div class="card1" id="dom">
+                        <h3>The Dominion</h3>
+                        <div class="contact" id="dom1">
+                            <p class="email">info@thedominion.com</p>
+                            <p class="cell">777-777-7777</p>
+                        </div>
+                    </div>
+                    <div class="card1" id="sin">
+                        <h3>Sinister Industries</h3>
+                        <div class="contact" id="sin1">
+                            <p class="email">info@sinisterindustries.com</p>
+                            <p class="cell">666-666-6666</p>
+                        </div>
+                    </div>
+                    <div class="card1" id="edu">
+                        <h3>Witch University</h3>
+                        <div class="contact" id="edu1">
+                            <p class="email">info@wu.edu</p>
+                            <p class="cell">131-313-1313</p>
+                        </div>
+                    </div>
+                </ul>
+            </section>
         </div>
     </main>
     <footer>
@@ -81,5 +100,7 @@
     </footer>
     <script src="../chamber/scripts/getdates.js"></script>
     <script src="../chamber/scripts/menu.js"></script>
+    <script src="../chamber/scripts/mode.js"></script>
 </body>
+
 </html>
