@@ -13,6 +13,33 @@ body {
     padding: 0;
 }
 
+.hero {
+    position: relative;
+    max-width: 1279px;
+    margin: 0 auto;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 lightgray;
+}
+
+.herolabel {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    background-color: var(--accent-color);
+    padding: 0 1.5rem;
+    opacity: 0.85;
+    border-radius: 5px;
+}
+
+.herolabel p {
+    color: var(--background-color);
+}
+
 header {
     display: flex;
     align-items: center;
@@ -65,8 +92,9 @@ nav.open {
     display: block;
 }
 
-.active::before, .active::after {
-	content: " 👀 ";
+.active::before,
+.active::after {
+    content: " 👀 ";
 }
 
 #menu {

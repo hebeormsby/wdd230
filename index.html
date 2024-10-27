@@ -25,7 +25,7 @@
 
 <body>
     <header>
-        <img src="images/Hebe.jpg" alt="Image of Hebe Ormsby">
+        <img src="images/Hebe.webp" alt="Image of Hebe Ormsby">
         <h1>Hebe Ormsby</h1>
     </header>
     <button id="menu" aria-label="Toggle navigation"></button>
@@ -38,6 +38,16 @@
             target="_blank">Scripture</a>
     </nav>
     <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/temple-small.webp" media="(max-width: 400px)">
+                <source srcset="images/temple-medium.webp" media="(max-width: 960px)">
+                <img src="images/temple-large.webp" alt="Hamilton Temple" width="1279" height="800">
+            </picture>
+            <div class="herolabel">
+                <p>Hamilton Temple</p>
+            </div>
+        </div>
         <h2>WDD 230: Web Frontend Development</h2>
         <section class="card" id="learn">
             <h3>Learning Activities</h3>
@@ -77,7 +87,7 @@
         <div>
             <p>&copy; <span id="year"></span></p>
             <p>&#127804;Hebe Isabella Bern Ormsby&#127804;</p>
-            <p id="flag">New Zealand<img src="images/flag.jpg" alt="New Zealand flag"></p>
+            <p id="flag">New Zealand<img src="images/flag.webp" alt="New Zealand flag"></p>
         </div>
         <p id="mod">Last modification: <span id="lastModified"></span></p>
     </footer>
