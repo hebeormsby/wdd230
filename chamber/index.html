@@ -24,7 +24,7 @@
 
 <body>
     <header>
-        <img src="../chamber/images/pump.png" alt="Image of jack-o-lantern.">
+        <img src="../chamber/images/pump.webp" alt="Image of jack-o-lantern.">
         <div>
             <h1>HALLOWEENTOWN</h1>
             <p id="commerce">Chamber of Commerce</p>
@@ -40,7 +40,13 @@
     </nav>
     <main>
         <div class="hero-image">
-            <img class="hero" src="../chamber/images/hero.webp" alt="Image of Town Square">
+            <div>
+                <picture>
+                    <source srcset="../chamber/images/hero-small.webp" media="(max-width: 500px)">
+                    <source srcset="../chamber/images/hero-medium.webp" media="(max-width: 800px)">
+                    <img class="hero" src="../chamber/images/hero-large.webp" alt="Image of Town Square">
+                </picture>
+            </div>
             <div class="hero-text">
                 <h2>Welcome to HALLOWEENTOWN!</h2>
                 <p>Celebrate over 1000 years of magic and...</p>
@@ -57,13 +63,20 @@
             <section class="card" id="weather">
                 <h3>Information</h3>
                 <ul id="weather1">
-                    <li>Towns Square, Halloweentown</li>
-                    <li>[Weather forecast]</li>
+                    <li>
+                        <label for="temperature">Temperature (°F):</label>
+                        <input type="number" id="temperature" placeholder="Enter temperature">
+                    </li>
+                    <li>
+                        <label for="windSpeed">Wind Speed (MPH):</label>
+                        <input type="number" id="windSpeed" placeholder="Enter wind speed">
+                    </li>
+                    <li><span id="windchill"></span></li>
                     <li>Visitors:</li>
                 </ul>
             </section>
             <section class="card" id="sponsor">
-                <h3>Sponsors</h3>
+                <h3 id="sponsor-heading">Sponsors</h3>
                 <div class="card1" id="dom">
                     <h3>The Dominion</h3>
                     <div class="contact" id="dom1">
@@ -99,6 +112,7 @@
     <script src="../chamber/scripts/getdates.js"></script>
     <script src="../chamber/scripts/menu.js"></script>
     <script src="../chamber/scripts/mode.js"></script>
+    <script src="../chamber/scripts/windchill.js"></script>
 </body>
 
 </html>

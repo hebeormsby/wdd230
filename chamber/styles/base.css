@@ -127,6 +127,10 @@ nav.open {
     padding: 0 16px;
 }
 
+.contact {
+    display: block;
+}
+
 main div h2 {
     font-size: 8vw;
 }
@@ -170,15 +174,12 @@ ul {
     list-style-type: none;
 }
 
-
-
 .card1 {
     display: block;
     background-color: var(--background-color);
     border: 1px solid #ddd;
     border-radius: 5px;
-    margin: 20px -20px;
-    width: 100%;
+    margin: 20px 20px;
     box-shadow: 0 4px 8px 0 lightgray;
 }
 
@@ -195,9 +196,14 @@ ul {
     font-size: 16px;
 }
 
+#event {
+    display: flex;
+    flex-direction: column;
+}
+
 #event p {
     font-size: large;
-    margin: 16px 20px;
+    padding: 0 20px;
 }
 
 #event a {
@@ -210,7 +216,7 @@ ul {
 
 #weather1 {
     text-align: center;
-    padding: 0;
+    padding: 0 20px;
 }
 
 #weather1 li {

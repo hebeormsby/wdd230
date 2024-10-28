@@ -13,18 +13,36 @@
         display: none;
     }
 
-    #sponsor1 {
+    #sponsor {
         display: grid;
         grid-template-columns: auto auto auto;
         column-gap: 16px;
     }
 
-    .contact {
-        display: contents;
+    #sponsor-heading {
+        grid-column: 1 / 4;
     }
 
+    .contact {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .email,
     .cell {
-        position: absolute;
-        right: 36px;
+        position: static;
+    }
+
+    #dom {
+        margin: 20px 0 20px 20px;
+    }
+
+    #sin {
+        margin: 20px 0 20px 0;
+    }
+
+    #edu {
+        margin: 20px 20px 20px 0;
     }
 }
