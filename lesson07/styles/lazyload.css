@@ -1,0 +1,49 @@
+:root {
+    --color: #333;
+    --background-color: #f8f8f8;
+    --accent-color: #bed;
+}
+
+body {
+    text-align: center;
+    color: var(--color);
+    background-color: var(--background-color);
+}
+
+header {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+main {
+    margin: 0 auto;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 100%;
+    background: var(--color);
+    margin-bottom: 20px;
+    animation: fade 5s;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+main p {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: var(--accent-color);
+    padding: 20px;
+}
