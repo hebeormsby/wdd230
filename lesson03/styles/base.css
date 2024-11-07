@@ -7,9 +7,57 @@
 }
 
 body {
+    text-align: center;
     background-color: var(--background-color);
     color: var(--color);
     font-family: 'Afacad Flux', sans-serif;
     margin: 0;
     padding: 0;
+}
+
+main {
+    margin: 30px;
+}
+
+.colors {
+    width: 100%;
+    margin: 30px auto;
+}
+
+.colors th {
+    background-color: var(--background-color);
+}
+
+.colors td {
+    width: 20%;
+    height: 3em;
+}
+
+#text {
+    color: var(--background-color);
+    background-color: var(--color);
+}
+
+#bg1 {
+    background-color: var(--background-color);
+    border: solid;
+}
+
+#bg2 {
+    color: var(--background-color);
+    background-color: var(--background-color2);
+}
+
+#ac1 {
+    background-color: var(--accent-color2);
+    color: var(--color);
+}
+
+#ac2 {
+    color: var(--background-color);
+    background-color: var(--accent-color);
+}
+
+img {
+    width: 100%;
 }
