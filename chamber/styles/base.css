@@ -131,6 +131,32 @@ nav.open {
     display: block;
 }
 
+.grid {
+    margin: 0 30px;
+    text-align: center;
+}
+
+.gallery {
+    margin-bottom: 30px;
+}
+
+#aggie {
+    margin-top: 5px;
+}
+
+#dentist {
+    margin-bottom: 0;
+}
+
+.card p {
+    font-size: 1rem;
+    margin: 16px;
+}
+
+main img {
+    width: 100%;
+}
+
 main div h2 {
     font-size: 8vw;
 }
