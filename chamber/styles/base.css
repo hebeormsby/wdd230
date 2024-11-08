@@ -140,6 +140,11 @@ nav.open {
     margin-bottom: 30px;
 }
 
+.gallery p {
+    font-size: .95rem;
+    margin-top: 0;
+}
+
 #aggie {
     margin-top: 5px;
 }
