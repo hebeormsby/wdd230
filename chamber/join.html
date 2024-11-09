@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Hebe Ormsby">
+    <meta name="description" content="This is the sign up page for the Halloweentown Chamber.">
+    <meta property="og:title" content="The Halloweentown Chamber of Commerce Join Page">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="chamber/images/hero.webp">
+    <meta property="og:url" content="https://hebeormsby.github.io/wdd230/chamber/join.html">
+    <title>Halloweentown Chamber of Commerce Website</title>
+    <link rel="icon" href="../chamber/images/favicon.ico">
+    <link rel="stylesheet" href="../chamber/styles/base.css">
+    <link rel="stylesheet" href="../chamber/styles/medium.css">
+    <link rel="stylesheet" href="../chamber/styles/larger.css">
+    <link rel="stylesheet" href="../chamber/styles/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src="../chamber/images/pump.webp" alt="Image of jack-o-lantern.">
+        <div>
+            <h1>HALLOWEENTOWN</h1>
+            <p id="commerce">Chamber of Commerce</p>
+        </div>
+        <div id="mode">🌑</div>
+    </header>
+    <button id="menu" aria-label="Toggle navigation"></button>
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="../chamber/discover.html">Discover</a>
+        <a href="#">Directory</a>
+        <a href="#">Join</a>
+    </nav>
+    <main>
+        <form action="record.html" method="get" class="form-main">
+            <fieldset>
+                <legend>Applicant Information</legend>
+                <label>Username* <input type="text" name="username" id="username" required></label>
+                <label>Password* <input type="password" name="password" id="password" required pattern="[A-Za-z0-9]{8,}"
+                        placeholder="8 alphanumeric characters"> </label>
+                <label>Confirm Password* <span id="message"></span> <input type="password" name="password" id="confirm"
+                        required pattern="[A-Za-z0-9]{8,}"> </label>
+                <label>Email* <input type="email" name="email" id="email" placeholder="example@byui.edu" required
+                        pattern=".+@byui\.edu" title="valid byui address"></label>
+            </fieldset>
+            <label for="r">Rating</label>
+            <div id="rangevalue">0</div>
+            <input type="range" id="r" name="r" min="0" max="10" value="0" step="1" list="rangevalues">
+            <datalist id="rangevalues">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </datalist>
+            <button id="rate-button" type="submit">Rate My Page!</button>
+        </form>
+    </main>
+    <footer>
+        <div>
+            <p>&copy;<span id="year"></span> Halloweentown Chamber</p>
+            <p>WDD230 project</p>
+            <p>Hebe Isabella Bern Ormsby</p>
+        </div>
+        <p id="mod">Last modification: <span id="lastModified"></span></p>
+    </footer>
+    <script src="../chamber/scripts/getdates.js"></script>
+    <script src="../chamber/scripts/menu.js"></script>
+    <script src="../chamber/scripts/mode.js"></script>
+    <script src="../chamber/scripts/windchill.js"></script>
+</body>
+
+</html>
