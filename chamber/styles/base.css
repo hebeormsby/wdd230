@@ -131,6 +131,13 @@ nav.open {
     display: block;
 }
 
+.top-message {
+    padding: 16px;
+    color: var(--background-color);
+    background-color: var(--accent-color);
+    text-align: center;
+}
+
 .grid {
     margin: 0 30px;
     text-align: center;
@@ -138,6 +145,10 @@ nav.open {
 
 .gallery {
     margin-bottom: 30px;
+}
+
+main picture:hover {
+    box-shadow: 20px 20px 50px 10px var(--accent-color) inset;
 }
 
 .gallery p {
