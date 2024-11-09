@@ -32,7 +32,6 @@ body {
     left: 30px;
     background-color: var(--accent-color);
     padding: 0 1.5rem;
-    opacity: 0.85;
     border-radius: 5px;
 }
 
