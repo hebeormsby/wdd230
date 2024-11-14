@@ -1,0 +1,55 @@
+{
+    "wardInformation": {
+        "familyName": "Smith",
+        "moveInDate": "1830-04-04",
+        "numberOfPeople": 9,
+        "visitedByBishopric": true,
+        "familyMembers": [
+            {
+                "name": "Joseph Smith Sr",
+                "gender": "Male",
+                "birthdate": "1771-07-12"
+            },
+            {
+                "name": "Lucy Mack Smith",
+                "gender": "Female",
+                "birthdate": "1775-07-08"
+            },
+            {
+                "name": "Alvin Smith",
+                "gender": "Male",
+                "birthdate": "1798-02-11"
+            },
+            {
+                "name": "Hyrum Smith",
+                "gender": "Male",
+                "birthdate": "1800-02-09"
+            },
+            {
+                "name": "Joseph Smith Jr",
+                "gender": "Male",
+                "birthdate": "1805-12-23"
+            },
+            {
+                "name": "Samuel Smith",
+                "gender": "Male",
+                "birthdate": "1808-03-13"
+            },
+            {
+                "name": "William Smith",
+                "gender": "Male",
+                "birthdate": "1811-03-13"
+            },
+            {
+                "name": "Katharine Smith",
+                "gender": "Female",
+                "birthdate": "1813-07-08"
+            },
+            {
+                "name": "Don Carlos Smith",
+                "gender": "Male",
+                "birthdate": "1816-03-25"
+            }
+        ]
+    }
+}
